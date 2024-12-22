@@ -1,0 +1,53 @@
+/* font families */
+@font-face {
+    font-family: newEdge666-LR;
+    src: url(materials/NewEdge666Test-LightRounded.otf);
+}
+@font-face {
+    font-family: newEdge666-LRS;
+    src: url(materials/NewEdge666Test-LightRoundedSlanted.otf)
+}
+
+body{
+    background-color: floralwhite;
+}
+
+#title{
+    color: dimgray;
+    text-align: center;
+    position: relative;
+    padding-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: newEdge666-LR;
+}
+
+#specialW{
+    font-family: newEdge666-LRS;
+}
+
+.responsive{
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navMenu a{
+    float: left;
+    color: dimgray;
+    text-align: center;
+    padding: 1px 12px;
+    font-size: 15px;
+    text-decoration: none; /* gets rid of text formatting like link underlines */
+}
+
+/* change the colour of the links when hovering */
+.navMenu a:hover{
+    color: steelblue;
+}
+
+/* add colour to active or current link */
+.navMenu a.active{
+    color: seagreen;
+}
